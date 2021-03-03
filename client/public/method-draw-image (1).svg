@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#7f00ff" id="svg_9" d="m279.7,266.96075l32.23539,-57.22148l55.82923,-33.03926l64.47078,0l55.82923,33.03926l32.23538,57.22148l0,66.07853l-32.23538,57.22148l-55.82923,33.03925l-64.47078,0l-55.82923,-33.03925l-32.23539,-57.22148l0,-66.07853z" stroke-width="8.5" fill="#ffffff"/>
+  <text stroke="#00ffff" transform="rotate(0.4322872459888458 399.9992980956991,299.99999999999727) matrix(0.9041772916619666,0,0,0.8874415014205398,-79.34181848786912,4.946603216656261) " filter="url(#svg_2_blur)" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Calistoga'" font-size="250" id="svg_2" y="419.99346" x="381.8924" stroke-width="8" fill="#ff0000">SS</text>
+ </g>
+</svg>

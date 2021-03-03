@@ -1,0 +1,644 @@
+.home_mid {
+    background: url(https://static1.shine.com/c/s1/images/candidate/new/home_base_new.jpg?082845ca1c59) #6345db;
+    height: 285px;
+    color: #fff;
+    margin-top: 60px;
+    font-family: "PT Sans",sans-serif;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.box_one {
+    padding-left: 4.5rem;
+    margin-top: 1.5rem;
+}
+.box_one h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.box_one h2 {
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.white_box {
+    height: 30px;
+    padding: 0.6rem;
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+}
+.white_box p {
+    color: #546473;
+    padding-left: 0.8rem;
+}
+
+.registration {
+    flex-basis: 330px;
+    height: 70px;
+    background: url(https://static1.shine.com/c/s1/images/candidate/new/home_reg.png?082845ca1c59);
+    margin-top: 2.5rem;
+    margin-right: 4.5rem;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+.registration button {
+    background: #f7a400;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+    border: none;
+    font-size: 17px;
+    width: 185px;
+    line-height: 1.5;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.registration button:hover {
+    cursor: pointer;
+    background: #e78f10;
+}
+
+.sign_in {
+    width: 185px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.sign_in:hover {
+    cursor: pointer;
+}
+
+.cool_work,.top_companies {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cool_work h1,.top_companies h1 {
+    font-size: 1.9rem;
+    font-weight:bolder;
+    color: #303e4b;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "PT Sans",sans-serif;
+
+}
+.cool_work > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cool_work > div > div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.cool_work_image {
+    border-radius: 5px;
+    box-shadow: 0px 0px 21px 0px rgba(74,77,78,0.34);
+}
+.cool_work_image_title {
+    box-shadow: 0px 0px 21px 0px rgba(66, 68, 68, 0.556);
+    position: relative;
+    width: 75%;
+    align-items: center;
+    border-radius: 5px;
+    top: -35px;
+}
+.top_companies > div {
+    display: flex;
+    flex-direction: column;
+}
+.top_companies > div > div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.top_companies button {
+    padding: 5px 30px;
+    border-radius: 4px;
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    border: solid 1px #5364c4;
+    color: #5364c4;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "PT Sans",sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    margin-bottom: 150px;
+}
+.top_companies button:hover {
+    cursor: pointer;
+}
+.why_shine h1 {
+    font-size: 1.9rem;
+    font-weight:bolder;
+    color: #303e4b;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "PT Sans",sans-serif;
+}
+.why_shine > div {
+    display: flex;
+    justify-content: space-around;
+}
+.why_shine > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.why_shine strong {
+    font-size: 22px;
+    color: #505e6b;
+}
+
+.why_shine p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #6d7883;
+}
+
+.premium {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    height: 269px;
+    padding-top: 90px;
+    color: #fff;
+    font-family: "PT Sans",sans-serif;
+    background: url(https://static1.shine.com/c/s1/images/candidate/new/premium_base.png?082845ca1c59) #7f4089 no-repeat;
+}
+
+.premium_image {
+    width: 400px;
+    height: 293px;
+    content: '';
+    float: right;
+    margin: -24px -15px 0 0;
+    background: url(https://static1.shine.com/c/s1/images/candidate/new/premiumgraph.png?082845ca1c59) top right no-repeat;
+}
+.premium_crown {
+    float: left;
+    background: #674691;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    text-align: center;
+}
+.premium_title {
+    color: #ffb56a;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.premium_content {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.premium_content strong{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 0 20px 0;
+}
+.premium_content > div {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.premium_content > div > div {
+    display: flex;
+}
+.premium_content > div > div:nth-child(n+2) {
+    margin-left: 20px;
+}
+.premium_content > div > div:first-child {
+    margin-left: -10px;
+}
+.premium_button {
+    background-image: linear-gradient(136deg,#c87857 0%,#e8b383 100%);
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.21);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 190px;
+    text-align: center;
+    margin: 30px 0 0 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.job_alert h2 {
+    font-size: 1.9rem;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+    color: #303e4b;
+    text-align: center;
+}
+.job_alert > p {
+    color: #505e6b;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+.job_alert_content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.job_alert_content_right > div{
+    margin-bottom: 3rem;
+}
+.mobile_alert {
+    display: flex;
+}
+.mobile_alert > div:first-child {
+    width: 400px;
+    padding: 0.8rem;
+    border-radius: 4px;
+    box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.17);
+    background: #fff;
+    font-size: 15px;
+    color: #6d7883;
+    margin-right: 10px;
+}
+.mobile_alert > button {
+    border-radius: 5px;
+    background: #f7a400;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: 400;
+    font-family: "PT Sans",sans-serif;
+    border: 0 none;
+    font-size: 16px;
+    padding: 0rem 1.5rem;
+} 
+.rating {
+    font-family: "PT Sans",sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.rating span{
+    width: 17px;
+    height: 27px;
+}
+.rating p {
+    margin: 5px;
+    color: #6d7883;
+}
+.store_button {
+    display: flex;
+
+}
+.store_button  button{
+    display: flex;
+    align-items: center ;
+}
+.store_button button{
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: #fbfbfb;
+    box-shadow: 1px 1px 2px 1px rgba(136, 136, 136, 0.309);
+    width: 157px;
+    height: 39px;
+    font-size: 16px;
+    color: #5566c3;
+    margin-right: 30px;
+}
+.store_button img {
+    margin-left: 20px;
+}
+
+.resume {
+    background: #f5f9fb;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.resume h2 {
+    font-size: 1.9rem;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+    color: #303e4b;
+    margin-bottom: 1rem;
+}
+.resume > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.resume_white_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #fff;
+    box-shadow: 0 3px 14px 0 rgba(212,209,209,0.5);
+    border-radius: 4px;
+    text-align: left;
+    padding: 10px 20px 10px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative;
+}
+.resume_white_box > div {
+    display: flex;
+    flex-direction: column;
+}
+.resume_white_box strong {
+    color: #5566c3;
+    font-size: 16px;
+    font-weight: 600;
+    border-left: solid 4px #d9e5f8;
+    padding-left: 10px;
+}
+.resume_white_box p {
+    font-size: 14px;
+    color: #6d7883;
+    font-style: normal;
+    padding: 20px 10px 20px 14px;
+}
+.resume_white_box img {
+    width: 60px;
+    height: 65px;
+}
+.resume_button {
+    background-image: linear-gradient(136deg,#a296d9 0%,#7faee0 100%);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.21);
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    width: 140px;
+    margin-left: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.shine_learning {
+    width: 100%;
+    height: 320px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -81px;
+    color: #fff;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background: url(https://static1.shine.com/c/s1/images/candidate/new/purple_base_new.png?082845ca1c59)  #f5f9fb;
+}
+.shine_learning > div {
+    padding-top: 100px;
+    padding-left: 80px;
+    font-family: "PT Sans",sans-serif;
+}
+.shine_learning h2{
+    margin-left: 1rem;
+    font-size: 30px;
+    
+}
+.shine_learning h3 {
+    font-size: 20px;
+    opacity: 0.7;
+    margin: 1rem;
+    font-weight: 400;
+}
+.shine_learning > div > div {
+    margin: 1.5rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.501);
+    border-radius: 5px;
+    width: max-content;
+    padding: 0.7rem;
+}
+.shine_learning > div > div:hover {
+    cursor: pointer;
+}
+
+.best_courses {
+    margin: 25px;
+}
+.best_courses > h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+    color: #303e4b;
+    font-size: 1.9rem;
+}
+.courses_content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.courses_content img {
+    width: 120px;
+    height: 120px;
+}
+.courses_content > div {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 12px 0 rgba(163,163,163,0.5);
+    border-radius: 4px;
+    padding: 20px 10px 0 10px;
+    box-sizing: border-box;
+    flex: 0 0 30%;
+    margin: 10px 0;
+}
+.best_courses h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5364c4;
+    margin-bottom: 0.5rem;
+}
+.best_courses p {
+    color: #6d7883;
+    font-size: 13px;
+}
+.best_courses p:last-child {
+    margin-top: 2rem;
+}
+.browse_jobs {
+    text-align: center;
+}
+.browse_jobs > h2{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+    color: #303e4b;
+    font-size: 1.9rem;
+}
+.browse_jobs > div {
+    padding: 0rem 2rem;
+    box-shadow: none;
+    margin-bottom: 1rem;
+}
+.job_list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    text-align: left;
+}
+.job_list p {
+    color: #4456bb;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.job_list p:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.job_list span {
+    color: #6d7883;
+    font-size: 13px;
+}
+.browse_jobs > button:last-child {
+    padding: 5px 30px;
+    margin: auto;
+    border-radius: 4px;
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    border: solid 1px #5364c4;
+    color: #5364c4;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "PT Sans",sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+    margin-bottom: 100px;
+}
+.recruit_smart {
+    font-size: 16px;
+    background: #f5f9fb;
+    height: 300px;
+    line-height: 20px;
+    text-align: center;
+}
+.recruit_smart h2 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+    color: #303e4b;
+    padding: 3rem;
+}
+.recruit_smart_content {
+    display: flex;
+    justify-content: space-around;
+}
+.recruit_smart_content > div {
+    text-align: center;
+}
+.recruit_smart_content p {
+    color: #546473;
+    font-size: 15px;
+}
+
+.recruit_smart button {
+    margin: 2.5rem;
+    background: #f7a400;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+    border: none;
+    font-size: 14px;
+    width: 185px;
+    line-height: 1.5;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.recruit_smart button:hover {
+    cursor: pointer;
+    background: #e78f10;
+}
+
+.ad_banner {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.footer {
+    background: url(https://static1.shine.com/c/s1/images/candidate/new/wave_blue.gif?082845ca1c59) left top #f6faff repeat-x;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+}
+.footer_content {
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+    height: 350px;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.282);
+}
+.footer_top {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+.footer * {
+    list-style: none;
+}
+.footer_top p {
+    margin: 1rem 0rem;
+    font-size: 13px;
+    color: #4456BB;
+}
+
+.footer_top strong {
+    font-size: 14px;
+    color : #505E6B;
+}
+
+.download_app {
+    background: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+    width: 150px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #5364c4;
+    text-align: center;
+    padding: 15px;
+    border: solid 1px #5364c4;
+    margin-top: 3rem;
+}
+
+.footer_base {
+    margin: 0.6rem 0rem;
+    font-size: 11px;
+    color: #546473;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_base span {
+    padding: 0px 6px;
+}
+.footer_base_right {
+    margin-right: 2rem;
+}

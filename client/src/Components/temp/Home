@@ -1,0 +1,145 @@
+import React, { Component } from "react"
+import { DataContext } from "../../Context/DataContextProvider"
+import { Link } from "react-router-dom"
+import styles from "./Components.module.css"
+
+class Home extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            loading: true,
+            prtemp: [],
+            pr2: [],
+            pr3: []
+        }
+
+    }
+
+    componentDidMount() {
+        const { getProducts, getCategories } = this.context
+        getProducts();
+    }
+
+    render() {
+        const { isLoading, prsort } = this.context
+        var sorted1 = []
+        var sorted2 = []
+        var sorted3 = []
+        var sorted4 = []
+        var sorted5 = []
+        for (var i = 0; i < prsort.length; i++) {
+            prsort[i].Product_Title=prsort[i].Product_Title.slice(0,40)
+            if (prsort[i].Category == "Grocery & Gourmet Foods") {
+                sorted1.push(prsort[i])
+            }
+            else if (prsort[i].Category == "Bath & Shower") {
+                sorted2.push(prsort[i])
+            }
+            else if (prsort[i].Category == "Skin Care") {
+                sorted3.push(prsort[i])
+            }
+            else if (prsort[i].Category == "Hair Care") {
+                sorted4.push(prsort[i])
+            }
+            else if (prsort[i].Category == "Fragrance") {
+                sorted5.push(prsort[i])
+            }
+        }
+        sorted1.length = 8
+        sorted2.length = 8
+        sorted3.length = 8
+        sorted4.length = 8
+        sorted5.length = 8
+
+        if (isLoading) {
+            return (
+                <div>Loading...</div>
+            )
+        }
+        return (
+            <div>
+                <h1>Best Offers in Class</h1>
+                <h2 style={{marginTop:"40px"}}>Grocery</h2>
+                <div>
+                <div className={styles.offers}>
+
+                    {
+                        sorted1.map((item) => (
+                            <div className={styles.offer}>
+                                <Link to={`/products/${item.UID}`}>{item.Product_Title}
+                        <br/><br/>MRP ₹{item.Mrp}<br/>{item.Offers}% OFF<br/>Now ₹{item.Price}</Link>
+
+                            </div>
+                        ))
+                    }
+                   
+                <button style={{margin:"5px",height:"172px"}}>►</button>    
+                </div> </div>
+
+                <h2 style={{marginTop:"40px"}}>Bath and Shower</h2>
+                <div className={styles.offers}>
+
+                    {
+                        sorted2.map((item) => (
+                            <div className={styles.offer}>
+                                <Link to={`/products/${item.UID}`}>{item.Product_Title}
+                        <br/><br/>MRP ₹{item.Mrp}<br/>{item.Offers}% OFF<br/>Now ₹{item.Price}</Link>
+
+                            </div>
+                        ))
+                    }
+                    <button style={{margin:"5px",height:"172px"}}>►</button>
+                </div>
+                <h2 style={{marginTop:"40px"}}>Skin Care</h2>
+                <div className={styles.offers}>
+
+                    {
+                        sorted3.map((item) => (
+                            <div className={styles.offer}>
+                                <Link to={`/products/${item.UID}`}>{item.Product_Title}
+                        <br/><br/>MRP ₹{item.Mrp}<br/>{item.Offers}% OFF<br/>Now ₹{item.Price}</Link>
+
+                            </div>
+                        ))
+                    }
+                    <button style={{margin:"5px",height:"172px"}}>►</button>
+                </div>
+                <h2 style={{marginTop:"40px"}}>Hair Care</h2>
+                <div className={styles.offers}>
+
+                    {
+                        sorted4.map((item) => (
+                            <div className={styles.offer}>
+                                <Link to={`/products/${item.UID}`}>{item.Product_Title}
+                        <br/><br/>MRP ₹{item.Mrp}<br/>{item.Offers}% OFF<br/>Now ₹{item.Price}</Link>
+
+                            </div>
+                        ))
+                    }
+                    <button style={{margin:"5px",height:"172px"}}>►</button>
+                </div>
+                <h2 style={{marginTop:"40px"}}>Fragrances</h2>
+                <div className={styles.offers}>
+
+                    {
+                        sorted5.map((item) => (
+                            <div className={styles.offer}>
+                                <Link to={`/products/${item.UID}`}>{item.Product_Title}
+                        <br/><br/>MRP ₹{item.Mrp}<br/>{item.Offers}% OFF<br/>Now ₹{item.Price}</Link>
+
+                            </div>
+                        ))
+                    }
+                    <button style={{margin:"5px",height:"172px"}}>►</button>
+                </div>
+
+
+
+            </div>
+        )
+    }
+}
+
+Home.contextType = DataContext
+
+export { Home }

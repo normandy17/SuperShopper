@@ -1,0 +1,161 @@
+*{
+    font-family: Roboto,Arial,Times,serif;
+  
+}
+* ul{
+    list-style: none;
+    width: 99%;
+}
+* span{
+    font-size: 15px;
+}
+li{
+    display: flex;
+    margin-bottom: 15px;
+}
+.profile_container{
+   background-color: #FBFBFB;
+    padding:0px 169px;
+    display:flex;
+}
+
+.inner_container{
+    margin-top:30px;
+    width: 71%;
+    margin-right: 30px;
+}
+.booster{
+    box-shadow: 0 2px 4px 0 #e7edfc, 0 0 20px 0 rgba(0,0,0,0.2);
+}
+.advertisement{
+    padding: 10px;
+}
+.ad_boxes{
+    box-shadow: 0 2px 4px 0 #e7edfc, 0 0 20px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    height: 250px;
+    width:250px;
+    color: #707070;
+    margin-bottom:30px;
+
+}
+.user_header{
+    width: 100%;
+    display: flex;
+    background: url(https://static2.shine.com/c/s1/images/candidate/new/backgroun_jd.png?904664a9a0aa)right 0 no-repeat #fff;
+    display: flex;
+    margin: 10px 0 10px 0;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding: 22px 1%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user_header_left{
+   
+    width: 10%;
+    padding: 5px;
+}
+.user_header_middle{
+    width: 60%;
+}
+.user_header_middle h1{
+    margin:0px;
+    padding: 0px;
+}
+.user_header_right{
+    width: 30%;
+    padding-top: 5px;
+}
+.first_letter{
+    width: 55px;
+    height: 55px;
+   background-color: #9ECBBE;
+    text-align: center;
+    display: grid;
+    color:white;
+    place-items: center;
+    padding: 0;
+    font-family: Roboto,Arial,Times,serif;
+    font-size: 34px;
+}
+.profile_score{
+    display: flex;
+    justify-content: space-between;
+}
+.last_updated{
+    font-size: 11px;
+}
+.user_profile{
+    background-color: white;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding: 22px 1%;
+}
+.strong_lable{
+    font-size: 13px;
+    font-weight: 500;
+    color: #505e6b;
+    width: 25%;
+}
+.education{
+    background-color: white;
+    
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding-left: 7px;
+}
+
+* h1{
+    font-size: 23px;
+}
+
+.indivi{
+    display: flex
+}
+
+.skills{
+    background-color: white;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding-left: 7px;
+   
+}
+.indivi{
+    display:flex;
+    justify-content: space-between;
+    margin:15px 0px 15px 0px;
+}
+
+.indivi_assessment{
+    margin-right: 5;
+    border-radius: 10 !important;
+    color:#5566C3;
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.3) ;
+    padding:1px 5px;
+}
+
+.line{
+  
+    border: 1px solid rgb(221, 221, 221);
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.desired_job_details{
+    background-color: white;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding-left: 7px;
+}
+
+.profile_footer{
+    padding:100px;
+}

@@ -1,0 +1,35 @@
+import React from "react"
+import './App.css';
+
+import { PaymentCard } from "./components/Card/Card";
+import { ClassExample } from "./components/classexample";
+import { List } from "./components/dolist";
+import { Evnthand } from "./components/eventhandling";
+import { Form } from "./components/Form";
+import { Input } from "./components/Input";
+
+export class App extends React_Components{
+  constructor(props){
+    super(props)
+    this.input=React.createRef()
+  }
+}
+
+
+function App() {
+  return (
+    <div className="App">
+      To-Do 
+      
+      {/* <div><PaymentCard></PaymentCard></div> */}
+      {/* <ClassExample></ClassExample> */}
+      {/* <Evnthand></Evnthand> */}
+      {/* <List></List> */}
+      <Form></Form>
+      <Input ref={this.input}></Input>
+      <button onClick={()=> this.input.current.focus}
+    </div>
+  );
+}
+
+export default App;
